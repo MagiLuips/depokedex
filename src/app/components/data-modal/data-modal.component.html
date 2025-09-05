@@ -1,0 +1,7 @@
+<div class="data-modal">
+  <img src="{{ pokemon?.sprites?.front_default }}" />
+  <p>Cum on! It's {{ pokemon?.name }}</p>
+  <p>{{ pokemon?.weight }}</p>
+  <p>{{ pokemon?.height }}</p>
+  <div (click)="closed.emit()">X</div>
+</div>

@@ -1,0 +1,7 @@
+<div
+  class="bg-sky-200 size-32 content-center"
+  (click)="clicked.emit(pokemon.id)"
+>
+  <img src="{{ pokemon.sprite }}" />
+  <p>No. {{ pokemon.id }}: {{ pokemon.name }}</p>
+</div>
